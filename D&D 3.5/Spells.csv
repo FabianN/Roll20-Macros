@@ -1,0 +1,14 @@
+Name,Book (Pg #),Macro Command
+,,
+,,
+,,
+Cause Fear,Player's Handbook (208),"/em casts Cause Fear with a Will save DC[[ 11+@{cha-mod} ]] 
+Frighten's the target for [[ 1d4 ]] round. If saved: Shaken's the target for [[ 1 ]] round. Causes fear counters and dispels remove fear. Range: [[ 25+(5*floor(@{casterlevel2}/2)) ]] ft.; Target => 5HD; (PH,208)"
+Command Undead,Player's Handbook (210),"/em casts Command Undead with a Will save DC[[ 11+@{cha-mod} ]]
+Gives some degree of control over one undead creature for [[ @{casterlevel2} ]] days. Must win apposed Cha checks for abnormal actions. Range: [[ 25+(5*floor(@{casterlevel2}/2)) ]] ft.; (PH,210)"
+Ray of Enfeeblement,Player's Handbook (269),"/em casts Ray of Enfeeblement hitting AC[[ 1d20+@{rangedattackbonus}+@{size}[size]+?{Flank (1=yes)|0}*2[Flank]+?{Power Attack? (put in penalty with negative sign ie -3)|0}[Pwr Attk]]]
+If Ray hits target, deals [[ 1d6+1*(floor(@{casterlevel2}/2) ]] strength damage, but not damaging below 1. Range: [[ 25+(5*floor(@{casterlevel2}/2)) ]] ft.; Duration [[ 1*@{casterlevel2} ]] min; (PH,269)"
+Speak with Dead,Player's Handbook (281),"/em casts Speak with Dead
+Ask an corpse [[ 1+1*floor(@{casterlevel2}/2) ]] questions. Takes 10min to cast w/ a 10ft range. If target was a different alignment it gets a Will save DC[[ 10+3+@{cha-mod} ]]; Duration: [[ @{casterlevel2} ]] min. (PH,281)"
+Summon Undead I,Heroes of Horror (132),"/em casts Summon Undead I and summons one ?{Human Warrior Skeleton or Kobold Zombie?|Human Warrior Skeleton}
+Like Summon Monster I, but undead. Range: Range: [[ 25+(5*floor(@{casterlevel2}/2)) ]] ft.; Duration [[@{casterlevel2} ]] rounds; (HH,132)"
