@@ -6,6 +6,10 @@ Cause Fear,Player's Handbook (208),"/em casts Cause Fear with a Will save DC[[ 1
 Frighten's the target for [[ 1d4 ]] round. If saved: Shaken's the target for [[ 1 ]] round. Causes fear counters and dispels remove fear. Range: [[ 25+(5*floor(@{casterlevel2}/2)) ]] ft.; Target => 5HD; (PH,208)"
 Command Undead,Player's Handbook (210),"/em casts Command Undead with a Will save DC[[ 11+@{cha-mod} ]]
 Gives some degree of control over one undead creature for [[ @{casterlevel2} ]] days. Must win apposed Cha checks for abnormal actions. Range: [[ 25+(5*floor(@{casterlevel2}/2)) ]] ft.; (PH,210)"
+Create Water,Player's Handbook (215),"/em casts Create Water (L0 Conj(Creation)[Water]; V,S; 1 std action; Close [[ 25+(5*floor(@{casterlevel}/2)) ]] ft.; Instantaneous; Creates [[ 2*@{casterlevel} ]] gallons of clean, drinkable water."
+Cure Minor Wounds,Player's Handbook (216),"/em casts Cure Minor Wounds (L0 Conj(Healing); V,S; 1 std action; Touch; Creature touched; Instantaneous; Will Save(half) when used vs Undead; Undead can use spell resistance.), granting 1 heath (or causing 1 point of damage to an undead creature) to ?{Recipient's name|himself}."
+Detect Magic,Player's Handbook (219),"/em casts Detect Magic (L0 Divi; V,S; 1 std action; 60ft; Cone-shaped emanation; Concentration, up to [[ 1*@{casterlevel} ]];"
+Detect Poison,Player's Handbook (219),"/em casts Detect Poison (L0 Div; V,S; 1 std action; Close: [[ 25+(5*floor(@{casterlevel2}/2)) ]] ft.; One creater/object or 5-ft cube; Instantaneous;"
 Ray of Enfeeblement,Player's Handbook (269),"/em casts Ray of Enfeeblement hitting AC[[ 1d20+@{rangedattackbonus}+@{size}[size]+?{Flank (1=yes)|0}*2[Flank]+?{Power Attack? (put in penalty with negative sign ie -3)|0}[Pwr Attk]]]
 If Ray hits target, deals [[ 1d6+1*(floor(@{casterlevel2}/2) ]] strength damage, but not damaging below 1. Range: [[ 25+(5*floor(@{casterlevel2}/2)) ]] ft.; Duration [[ 1*@{casterlevel2} ]] min; (PH,269)"
 Speak with Dead,Player's Handbook (281),"/em casts Speak with Dead
